@@ -1,0 +1,7 @@
+{
+  "molecule": "h2",
+  "equilibrium_bond_length_A": 0.741,
+  "E_min_Ha": -1.1380066987725033,
+  "well_depth_vs_dmax_eV": 5.495,
+  "max_abs_error_mHa": 2.6423307986078726e-11
+}

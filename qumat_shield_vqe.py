@@ -145,7 +145,7 @@ def main():
     ap.add_argument("--distance", type=float, default=None, help="bond length in Angstrom (single mode)")
     ap.add_argument("--optimizer", default="L-BFGS-B", help="any scipy.optimize.minimize method")
     ap.add_argument("--outdir", default="results")
-    a = ap.parse_args()
+    a, _ = ap.parse_known_args()  # also works inside Colab/Jupyter (ignores the "-f kernel.json" argument)
     os.makedirs(a.outdir, exist_ok=True)
 
     from qiskit_nature.second_q.mappers import JordanWignerMapper

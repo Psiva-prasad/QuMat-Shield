@@ -1,0 +1,16 @@
+{
+  "E_vqe_Ha": -1.1373060357533853,
+  "E_exact_Ha": -1.1373060357533937,
+  "E_hf_Ha": -1.1169989967539924,
+  "abs_error_Ha": 8.43769498715119e-15,
+  "abs_error_mHa": 8.43769498715119e-12,
+  "within_chemical_accuracy": true,
+  "qubits": 4,
+  "parameters": 3,
+  "optimizer_iterations": 4,
+  "energy_evaluations": 24,
+  "runtime_s": 0.37,
+  "molecule": "h2",
+  "distance_A": 0.735,
+  "optimizer": "L-BFGS-B"
+}
