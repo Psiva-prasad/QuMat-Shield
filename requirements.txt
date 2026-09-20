@@ -1,0 +1,9 @@
+# Tested-against API style: Qiskit 1.x (Qiskit Nature 0.7 does not target Qiskit 2.x)
+qiskit>=1.2,<2.0
+qiskit-nature==0.7.2
+qiskit-algorithms>=0.3.1
+qiskit-aer
+pyscf          # needs Linux / macOS / WSL / Google Colab (no native Windows wheels)
+scipy
+numpy
+matplotlib
